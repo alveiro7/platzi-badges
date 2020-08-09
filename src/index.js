@@ -18,4 +18,9 @@ import Badge from './components/Badge';
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(<Badge
+    firstName="Alveiro"
+    lastName="Hoyos"
+    avatarUrl="https://lh3.googleusercontent.com/ogw/ADGmqu_7Pv4Xgfuo-6gHVXEZtqPGCKVox88ksnMKyyVJ=s32-c-mo"
+    jobTitle="Frontend Engineer"
+    twiiter="alveiro7"/>, container);
