@@ -6,8 +6,10 @@ class BadgesListItem extends React.Component {
     render() {
         return (
             <div className="BadgesListItem">
-                <img src={this.props.badge.avatarUrl}
-                alt={`${this.props.badge.firstName} ${this.props.badge.lastName}`} className="BadgesListItem__avatar"/>
+                <img 
+                src={this.props.badge.avatarUrl}
+                alt={`${this.props.badge.firstName} ${this.props.badge.lastName}`} 
+                className="BadgesListItem__avatar"/>
 
                 <div>
                     <strong>
